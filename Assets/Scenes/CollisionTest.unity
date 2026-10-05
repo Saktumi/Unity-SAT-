@@ -239,7 +239,7 @@ Transform:
   m_GameObject: {fileID: 552615060}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.373, y: 0, z: -3.757}
+  m_LocalPosition: {x: -1.046, y: 0, z: -3.757}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -787,7 +787,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552615060}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2288,7 +2288,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 895030710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe5597794b86a8445bff420f6db6c851, type: 3}
+  m_Script: {fileID: 11500000, guid: e685b67d381385748984360996146a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Transforms:
@@ -2296,9 +2296,8 @@ MonoBehaviour:
   - {fileID: 1684599809}
   - {fileID: 2000962621}
   - {fileID: 843894471}
-  HullDrawingOptions: 8
-  DrawIsCollided: 1
-  DrawIntersection: 1
+  DrawIsCollided: 0
+  DrawIntersection: 0
   LogContact: 0
 --- !u!4 &895030712
 Transform:
@@ -2869,7 +2868,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1658965629
 MonoBehaviour:
   m_ObjectHideFlags: 0
